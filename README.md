@@ -19,6 +19,11 @@ DataAccess class contains methods that provide interaction with the database i.e
 
 Appointments and Doctor class provide the structure used by Dapper for mapping.
 
+Medwins.sql contains the database details.
+
+ NOTE: The stored procedures have to be on run on separate files otherwise executing the Medwins.sql as it is will produce an error.
+       so copy the stored procedures into separate files.
+
 ## installing depencies 
 Under the project in vs click on nuget manager and search for dapper.
 
